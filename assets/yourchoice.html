@@ -1,0 +1,93 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+   <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Guestbook</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/
+bootstrap.min.css">
+<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/main.js"></script>
+<link rel="stylesheet" href="css/guestbook.css">
+":</head>
+<body id="crying" onload="InitForm();" onreset="InitForm();">
+    <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Sushmitha Madireddy</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                         <li><a href="Guestpage">Guestbook</a></li>
+                         <li><a href="Yourchoice.html">Yourchoice</a><li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            <article>            
+      <h1>Order your pizza here...!
+          </h1>
+
+<form method="POST" name="selectionForm">
+  <font face=Arial size=2> 
+      Your Name <input type="text" required ><br>
+   Phone Number   <input type="number" required><br>
+  <input type="checkbox" name="Steak"   value=10.00  onclick="this.form.total.value=calculateTotal(this);">Small $10.00 
+  <input type="checkbox" name="Chicken" value=12.00 onclick="this.form.total.value=calculateTotal(this);">Medium $12.00 
+  <input type="checkbox" name="Sushi"   value=15.00  onclick="this.form.total.value=calculateTotal(this);"> Large $15.00 
+  <br>
+  <b>Extra Toppings (only one selection allowed):</b> <br>
+  <input type="radio" name="ET" id="ET" value=0.00 onclick="this.form.total.value=calculateTotal(this);"> None
+  <br> 
+  <input type="radio" name="ET" id="ET" value=1.00 onclick="this.form.total.value=calculateTotal(this);"> Extra Cheese $1.00
+  <br> 
+  <input type="radio" name="ET" id="ET" value=2.00 onclick="this.form.total.value=calculateTotal(this);"> mushrooms
+  <br>
+  <input type="radio" name="ET" id="ET"  value=3.00 onclick="this.form.total.value=calculateTotal(this);">  black olives
+  <br>
+ <b> Extra Meat</b>
+  <br>
+  <input type="radio" name="EX" id="EX"  value=3.95 onclick="this.form.total.value=calculateTotal(this);">Veggie
+  <br>
+  <input type="radio" name="EX" id="EX"  value=0.00 onclick="this.form.total.value=calculateTotal(this);">Chicken
+  <br>
+<b>Delivery</b>
+<br>
+Door Step Delivery<input type="checkbox" name="doorstep" value=5.00  onclick="this.form.total.value=calculateTotal(this);"><br>
+Address:<br>
+<textarea  rows=3 cols=30 ></textarea><br>
+<input type="submit" name="submit" value="Order Now" onclick="fun()" /> 
+  <input type="hidden" name="calculatedTotal" value=0>
+  <input type="hidden" name="previouslySelectedRadioButton" value=0><br>
+  <font size=+1> Your total is: </font><font face=Arial size=2><font size=+1>
+  <input type="text" name="total" readonly onFocus="this.blur();">
+  </font></font><font size=+1> </font> <br>
+  <br> <span id="bye"></span>
+  </font> 
+</form>
+ <div class="footer-container">
+            <footer class="wrapper">
+                <h3>catch me at </h3><a href="https://bitbucket.org/Sushmitha_madireddy/"><img src="bitbuck.png" alt="face"/></a>
+               <p> contact at :6605280510.||Sushmithamadireddy95@gmail.com</p>
+            </footer>
+        </div>
+<script src="http:  //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/calculate.js"></script>
+
+</body>
+</html>

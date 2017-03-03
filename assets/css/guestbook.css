@@ -1,0 +1,23 @@
+body{
+background-image: url("img.png");
+background-repeat:no-repeat;
+background-color:white;
+background-size: 2000px 1260px;
+
+}
+h1{
+    color:red;
+}
+h2{
+    color:white;
+}
+label{
+    color:white;
+}
+.panel-body{
+background-color:#5bef00;
+}
+.btn{
+	color:white;
+	background-color:#fc0cec;
+}
