@@ -96,7 +96,7 @@ body {
 .footer-container,
 .main aside {
     border-top: 20px solid red;
-    width:1236px;
+    width:1348px;
 }
 
 .header-container,
@@ -104,7 +104,9 @@ body {
 .main aside {
     background:#000000;
 }
-
+.right{
+float: left;
+}
 .title {
     color: white;
 }
@@ -289,6 +291,10 @@ nav a:hover {
         width:1126px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+}
+.wrapp{
+    width:110px;
+    
 }
 
 /* ==========================================================================
